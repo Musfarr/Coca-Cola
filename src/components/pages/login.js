@@ -1,17 +1,17 @@
 
 import React from 'react'
-import img from ".."
-
+import bottle from "/Users/Musfar/Desktop/wk/ck/src/bottle-large.svg"
+import {link} from 'react-router-dom'
 const Login = () => {
 
   return (
 
 <div ClassName='' style={{display:'flex'}}>
-    <div ClassName='loginred' style={{ width:"400px" , backgroundColor:'maroon'}}>
 
-    <img src="" />
-         
-    </div>
+
+    <div ClassName='loginred' style={{ width:"400px" , backgroundColor:'maroon'}}>
+    <img src={bottle}  style={{marginLeft:"20%" , marginTop:"20%"}}/>
+</div>
 
     <div ClassName=' white' style={{height:"721px" , width:"1024px"}} >
 
@@ -22,6 +22,7 @@ const Login = () => {
     <div class="grid gap-6 mb-6 md:grid-cols-2">
       
     </div>
+    <h2 class="text-4xl font-bold dark:text-red mb-8 mr-64" style={{}}>LOGIN</h2>
     <div class="mb-6">
         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="EMAIL" required/>
     </div> 
@@ -36,6 +37,7 @@ const Login = () => {
     </div>
     <button id="signinbutton" type="submit" class="text-white  hover:bg-white-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  dark:hover:bg-white-500 dark:focus:ring-blue-800">Sign In</button>
 </form>
+
 
 
 </div>
