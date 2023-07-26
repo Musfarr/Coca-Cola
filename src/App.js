@@ -6,6 +6,7 @@ import Forgotpass from './components/pages/forgotpass'
 import Dashboard from './components/pages/dashboard';
 import Recorder from './components/pages/recorder';
 import Missedcall from './components/pages/missedcall';
+import Sidebar from './components/common/sidebar';
 
 
 
@@ -33,15 +34,33 @@ function App() {
             
           </Route>
 
-          <Route path='/dashboard' element = {<Dashboard/>}>        
+          <Route path='/dashboard' element = {
+          
+          <Dashboard/>}>        
+          </Route>
+
+          <Route path='/missedcall' element = {
+          
+          <div>
+            <Sidebar/>
+            <Missedcall/>
+          </div>
+          
+          }>        
           </Route>
 
 
-          <Route path='/missedcall' element = {<Missedcall/>}>        
-          </Route>
-
-
-          <Route path='/recorder' element = {<Recorder/>}>        
+          <Route exact path='/recorder' element = 
+          {
+          
+          
+          <div>
+            <Sidebar/>
+            <Recorder/>
+          </div>
+          }>        
+          
+          
           </Route>
 
         </Routes>      

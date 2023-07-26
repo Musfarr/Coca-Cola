@@ -9,7 +9,7 @@ const Login = () => {
 <div ClassName='' style={{display:'flex'}}>
 
 
-    <div ClassName='loginred' style={{ width:"50%" , backgroundColor:'maroon'}}>
+    <div ClassName='loginred' style={{ width:"50%" , height:"100vh", backgroundColor:'red'}}>
     <img src={bottle}  style={{marginLeft:"30%" , marginTop:"20%" , marginBottom:"20%"}}/>
 </div>
 
@@ -17,7 +17,7 @@ const Login = () => {
 
 
 
-<div ClassName=' white' style={{height:"721px" , width:"50%"}} >
+<div ClassName=' white' style={{height:"100vh" , width:"50%"}} >
 <div ClassName='sign' id='sign' style={{height: '279px',width: "444px"}}>
 <form>
 
