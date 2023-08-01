@@ -200,7 +200,7 @@ const Dashboard = () => {
 
 
 
-      <div class="relative overflow-x-auto shadow-md py-4 px-8" style={{marginTop:"5vh"}}>
+      <div class="relative overflow-x-auto  py-4 px-8" style={{marginTop:"5vh"}}>
     <table class="w-full text-sm text-left text-black dark:text-black ">
         <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
             <tr>
@@ -328,11 +328,12 @@ const Dashboard = () => {
 </div>
    </div>
 
-
-    <p style={{textAlign:'end'}} > © 2023 The Coca-Cola Company. All rights reserved.</p>
-
    </div>
    
+   <div className='flex justify-between pr-8' >
+<p>© 2023 The Coca-Cola Company. All rights reserved. </p>
+<span > powered by convex Interactive</span>
+</div>
 </div>
 
 
