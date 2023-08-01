@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from 'react';
 import { Tabs } from 'flowbite';
+import { hover } from '@testing-library/user-event/dist/hover';
 
 const Recorder = () => {
 
@@ -71,7 +72,6 @@ const Recorder = () => {
 
   return (
     <div style={{height:"100%" , paddingLeft:"15vh" , paddingTop:"30px" , backgroundColor:"#f5f5f5"}}> 
-<h1>222222</h1>
     <div style={{textAlign:'initial' ,fontFamily:'sans-serif'}} >
         <h3 style={{color:"red" ,fontWeight:"600" , fontSize:"30px" }}> CALL RECORDS </h3>
         <p><b>Use this page to view the call logs or call history, including inbound, outbound, and missed calls.</b></p>
@@ -80,19 +80,19 @@ const Recorder = () => {
     
     <div style={{marginRight:"40%",paddingTop:"10vh"}}>
 
-    <div class="mb-4 border-b  ">
+    <div class="mb-4   ">
     <ul class="flex flex-wrap -mb-px text-lg font-medium text-center  " id="tabExample" role="tablist">
         <li class="mr-2" role="presentation">
-            <button class="inline-block p-4 underline  text-red hover:text-grY hover:border-gray-300 " style={{color:"red"}} id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
+        <button class="p-4 underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
         </li>
         <li class="mr-2" role="presentation">
-            <button class="inline-block p-4 underline  hover:text-gray-600 hover:border-gray-300 " style={{color:'black'}} id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">OUTGOING CALLS</button>
+        <button class="p-4 underline text-black black-to-red" id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">OUTGOING CALLS</button>
         </li>
         <li class="mr-2" role="presentation">
-            <button class="inline-block p-4 underline  hover:text-gray-600 hover:border-gray-300 " style={{color:'black'}} id="settings-tab-example" type="button" role="tab" aria-controls="settings-example" aria-selected="false">MISSED CALLS</button>
+        <button class="p-4 underline text-black black-to-red" id="settings-tab-example" type="button" role="tab" aria-controls="settings-example" aria-selected="false">MISSED CALLS</button>
         </li>
         <li role="presentation">
-            <button class="inline-block p-4 underline" id="contacts-tab-example" style={{color:'black'}} type="button" role="tab" aria-controls="contacts-example" aria-selected="false">EXT TO EXT</button>
+        <button class="p-4 underline text-black black-to-red" id="contacts-tab-example" type="button" role="tab" aria-controls="contacts-example" aria-selected="false">EXT TO EXT</button>
         </li>
     </ul>
 </div>
@@ -117,8 +117,10 @@ const Recorder = () => {
     
     
     <div class="relative overflow-x-auto " style={{marginTop:"5vh"}}>
+
+
     <div id="tabContentExample">
-    <div class="hidden rounded-lg bg-gray-50 pb-16 pr-8" id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example">
+    <div class="hidden rounded-lg  pb-16 pr-8" id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example">
     <div class="relative overflow-x-auto shadow-md" style={{marginTop:"5vh"}}>
         <table class="w-full text-sm text-left text-black dark:text-black">
             <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
@@ -405,7 +407,7 @@ const Recorder = () => {
 
 
     {/* ////////////////////////////////////////////////////// */}
-    <div class="hidden p-4 rounded-lg bg-gray-50 " id="settings-example" role="tabpanel" aria-labelledby="settings-tab-example">
+    <div class="hidden p-4 rounded-lg " id="settings-example" role="tabpanel" aria-labelledby="settings-tab-example">
     <div class="relative overflow-x-auto shadow-md" style={{marginTop:"5vh"}}>
         <table class="w-full text-sm text-left text-black dark:text-black">
             <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
@@ -504,7 +506,7 @@ const Recorder = () => {
     </div>
   </div>
     {/* ///////////////////////////////////////////////////////////// */}
-    <div class="hidden p-4 rounded-lg bg-gray-50 " id="contacts-example" role="tabpanel" aria-labelledby="contacts-tab-example">
+    <div class="hidden p-4 rounded-lg " id="contacts-example" role="tabpanel" aria-labelledby="contacts-tab-example">
     <div class="relative overflow-x-auto shadow-md" style={{marginTop:"5vh"}}>
         <table class="w-full text-sm text-left text-black dark:text-black">
             <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">

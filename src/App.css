@@ -33,6 +33,27 @@
 }
 
 
+/* No custom JavaScript required for color changing */
+
+/* Default styles for the button */
+.black-to-red {
+  color: black;
+
+}
+
+/* Custom styles for the button when it's clicked */
+.black-to-red:focus {
+  color: red;
+}
+
+.black-to-red:hover {
+  color: red;
+}
+
+/* Optional: Remove the default focus outline */
+.black-to-red:focus:outline-none {
+  outline: none;
+}
 
 
 

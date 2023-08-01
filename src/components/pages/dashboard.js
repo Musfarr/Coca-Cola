@@ -24,7 +24,7 @@ const Dashboard = () => {
 
       <div class="shadow-md justify-center h-48 mb-4 rounded bg-gray-50 " style={{fontFamily:'sans-serif'}}>
       <div className='text-left'>
-      <h1 className='mt-2 mx-8 pt-4 text-2xl text-gray-400 dark:text-gray-800'>HIGHLIGHTS</h1>
+      <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>HIGHLIGHTS</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
       </div>
       
@@ -61,13 +61,13 @@ const Dashboard = () => {
 
       <div class=" grid grid-cols-1 gap-4 mb-4 " >
          <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-28 " style={{height:"500px"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
              xxxx
             </p>
          </div>
 
          <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-48 ">
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
               xxxx
             </p>
          </div>
@@ -76,29 +76,29 @@ const Dashboard = () => {
 
       <div class="grid grid-cols-3 gap-4 mb-4" style={{height:"500px"}}>
          <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
                
             </p>
          </div>
          <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
            
             </p>
          </div>
          <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">            
+            <p class="text-xl text-gray-400 dark:text-gray-500">            
             </p>            
          </div>
       </div>
 
       <div class="grid grid-cols-2 gap-2 mb-4" style={{height:"500px"}}>
          <div class=" rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width:"65%" }}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
                
             </p>
          </div>
          <div class="rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width: "133%" ,  marginLeft: "-33%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
            
             </p>
          </div>         
@@ -107,27 +107,27 @@ const Dashboard = () => {
       <div class="grid grid-cols-2 gap-2 mb-3 " style={{height:"600px" , width:"100%"}}>
 
          <div class="rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width: "100%"  }}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">
+            <p class="text-xl text-gray-400 dark:text-gray-500">
            
             </p>
          </div>
 
          <div class="rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width: "100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">           
+            <p class="text-xl text-gray-400 dark:text-gray-500">           
             </p>
          </div>
          <div class="rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width: "100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">           
+            <p class="text-xl text-gray-400 dark:text-gray-500">           
             </p>
          </div>
          <div class="rounded shadow-md bg-gray-50 h-64 " style={{height:"100%" , width: "100%"}}>
-            <p class="text-2xl text-gray-400 dark:text-gray-500">           
+            <p class="text-xl text-gray-400 dark:text-gray-500">           
             </p>
          </div>
       </div>
       <div class=" items-center justify-center rounded shadow-md bg-gray-50 mb-4 h-48 ">
       <div className='text-left'>
-      <h1 className='mt-2 mx-8 pt-4 text-2xl text-gray-400 dark:text-gray-800'>ENTRIES RECIEVED</h1>
+      <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>ENTRIES RECIEVED</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
       </div>
       
@@ -159,7 +159,7 @@ const Dashboard = () => {
 
       <div class=" items-center justify-center rounded shadow-md bg-gray-50 h-48  mb-4">
       <div className='text-left'>
-      <h1 className='mt-2 mx-8 pt-4 text-2xl text-gray-400 dark:text-gray-800'>1ST RE-ATTEMPT</h1>
+      <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>1ST RE-ATTEMPT</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
       </div>
       
@@ -194,7 +194,7 @@ const Dashboard = () => {
 
 
       <div className='text-left'>
-      <h1 className='mt-2 mx-8 pt-4 text-2xl text-gray-400 dark:text-gray-800'>OUT-BOUND CALLS</h1>
+      <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>OUT-BOUND CALLS</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
       </div>
 

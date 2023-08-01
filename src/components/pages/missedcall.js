@@ -71,9 +71,10 @@ const Missedcall = () => {
 
 
 <div style={{marginRight:"50%",paddingTop:"10vh"}}>
-<div className='flex mb-2 ' id="tabExample" role="tablist">
-<div className=''> <button  id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false"> <h1 className=" underline" style={{color:"red" }}   >  TOTAL ENTRIES </h1> </button> </div>
-<div className='pl-8 '> <button id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false"> <h1 className= " underline"style={{color:"black"}}    > UNIQUE ENTRIES </h1> </button> </div>
+<div className='flex mb-2 text-lg font-medium ' id="tabExample" role="tablist">
+<div className=''><button class="p-4 underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
+ </div>
+<div className='pl-4 '><button class="p-4 underline text-black black-to-red" id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">UNIQUE ENTRIES</button></div>
 </div>
 <form className=' w-64'>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
