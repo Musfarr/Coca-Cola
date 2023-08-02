@@ -7,6 +7,7 @@ import Dashboard from './components/pages/dashboard';
 import Recorder from './components/pages/recorder';
 import Missedcall from './components/pages/missedcall';
 import Sidebar from './components/common/sidebar';
+import Footer from './components/common/footer';
 
 
 
@@ -30,38 +31,39 @@ function App() {
 
           
          </Route>
-          <Route path = "/forgotpass" element={<Forgotpass/>}> 
-            
+          <Route path = "/forgotpass" element={<Forgotpass/>}>             
           </Route>
 
           <Route path='/dashboard' element = {
+          <div>
+          <Dashboard/>
           
-          <Dashboard/>}>        
+          </div>
+          }>        
           </Route>
 
-          <Route path='/missedcall' element = {
-          
+
+
+          <Route path='/missedcall' element = {     
           <div>
             <Sidebar/>
             <Missedcall/>
+            <Footer/>       
           </div>
-          
-          }>        
+               }>        
           </Route>
+
 
 
           <Route exact path='/recorder' element = 
-          {
-          
-          
+          {          
           <div>
             <Sidebar/>
             <Recorder/>
+            <Footer/>
           </div>
           }>        
-          
-          
-          </Route>
+           </Route>
 
         </Routes>      
       </BrowserRouter>

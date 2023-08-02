@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../common/sidebar'
+import Footer from '../common/footer'
 
 const Dashboard = () => {
   return (
@@ -22,7 +23,7 @@ const Dashboard = () => {
    <div class="p-4  rounded-lg " style={{marginTop : ""}}>
 
 
-      <div class="shadow-md justify-center h-48 mb-4 rounded bg-gray-50 " style={{fontFamily:'sans-serif'}}>
+      <div class=" shadow-md justify-center h-48 mb-4 rounded bg-gray-50 " style={{fontFamily:'sans-serif'}}>
       <div className='text-left'>
       <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>HIGHLIGHTS</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
@@ -189,7 +190,7 @@ const Dashboard = () => {
       </div>
 
 
-      <div class="  justify-center rounded shadow-md bg-gray-50 h-64 shadow-md" style={{height:"100vh" }}>
+      <div class="  justify-center rounded shadow-md bg-white h-64 shadow-md" style={{height:"100vh" }}>
 
 
 
@@ -200,140 +201,224 @@ const Dashboard = () => {
 
 
 
-      <div class="relative overflow-x-auto  py-4 px-8" style={{marginTop:"5vh"}}>
-    <table class="w-full text-sm text-left text-black dark:text-black ">
-        <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
+      <div class="relative overflow-x-auto  py-0 px-8" style={{marginTop:"5vh"}}>
+    <table class="w-full text-sm text-left text-gray-300 dark:text-gray-600 ">
+        <thead class="text-xs text-gray-200 uppercase dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    Product name
+                    SR.
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Color
+                    Execution Date
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Category
+                    no.of attempts
                 </th>
                 <th scope="col" class="px-6 py-3">
-                    Price
+                    Answered calls
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Not Answered calls
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    0-30
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Apple MacBook Pro 17"
+            <tr class=" tableodd border-y border-gray-300 left-1/2 ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                     1
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Laptop
+                    14              </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
                 <td class="px-6 py-4">
-                    $2999
+                    9
+                </td>
+                <td class="px-6 py-4">
+                    19
                 </td>
             </tr>
-            <br></br>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Microsoft Surface Pro
+            
+            <tr class="bg-white ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                    2
                 </th>
                 <td class="px-6 py-4">
-                    White
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Laptop PC
+                     14
                 </td>
                 <td class="px-6 py-4">
-                    $1999
+                    8
+                </td>
+                <td class="px-6 py-4">
+                    9
+                </td>
+                <td class="px-6 py-4">
+                    19
                 </td>
             </tr>
-            <br/>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Magic Mouse 2
+            
+            <tr class="tableodd border-y border-gray-300 left-1/2 ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                    3
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    16
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
             </tr>
-            <br/>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Magic Mouse 2
+            <tr class="bg-white ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                    4
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    16
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
             </tr>
-            <br></br>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Magic Mouse 2
+            
+            <tr class="  tableodd border-y border-gray-300 left-1/2">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                    5
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    16
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
             </tr>
-            <br></br>
-            <tr class="bg-white shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Magic Mouse 2
+            
+            <tr class=" ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                    6
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    16
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
             </tr>
-            <br></br>
-            <tr class="bg-white  shadow-md">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-black">
-                    Magic Mouse 2
+            
+            <tr class="tableodd  border-y border-gray-300   ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                     7
                 </th>
                 <td class="px-6 py-4">
-                    Black
+                12 Jun 2023
                 </td>
                 <td class="px-6 py-4">
-                    Accessories
+                    16
                 </td>
                 <td class="px-6 py-4">
-                    $99
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+            </tr>
+            <tr class="   ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                     7
+                </th>
+                <td class="px-6 py-4">
+                12 Jun 2023
+                </td>
+                <td class="px-6 py-4">
+                    16
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+            </tr>
+            <tr class="tableodd  border-y border-gray-300   ">
+                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
+                     7
+                </th>
+                <td class="px-6 py-4">
+                12 Jun 2023
+                </td>
+                <td class="px-6 py-4">
+                    16
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
+                </td>
+                <td class="px-6 py-4">
+                    13
                 </td>
             </tr>
         </tbody>
     </table>
 </div>
    </div>
+   <Footer/>
 
    </div>
    
-   <div className='flex justify-between pr-8' >
-<p>© 2023 The Coca-Cola Company. All rights reserved. </p>
-<span > powered by convex Interactive</span>
-</div>
+ 
 </div>
 
 

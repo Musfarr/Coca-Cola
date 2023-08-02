@@ -585,12 +585,7 @@ const Recorder = () => {
     {/* /////////////////////////////////////////////////////////////////////// */}
 </div>
     </div>
-    
 
-<div className='flex justify-between pr-8' >
-<p>© 2023 The Coca-Cola Company. All rights reserved. </p>
-<span > powered by convex Interactive</span>
-</div>
 
 </div>
 
