@@ -75,13 +75,16 @@
 
 
 }
+
+
+
 .nmbrs{
   color: red;
 }
 
 
-a [title]:hover::before {
-  content: attr(title);
+a [data-tooltip]:hover::before {
+  content: attr(data-tooltip);
   position: fixed ;
 
   transform: translateX(50px);
@@ -94,7 +97,8 @@ a [title]:hover::before {
   z-index: 10;
 }
 
+
 /* Hide the default browser tooltip */
-a[title]:hover {
+/* a[title]:hover {
   text-decoration: none;
-}
+} */

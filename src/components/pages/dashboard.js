@@ -7,23 +7,20 @@ const Dashboard = () => {
 
 
 
-
-      
-
     <div style={{backgroundColor:"#eaeaea"}}>
 
-    <div className='text-left' style={{marginLeft:"6.5%"}}>
-    <h1 style={{color:"#F40000" , fontSize:"xx-large" , fontWeight:"600" , paddingTop:"3rem"}}>RIGHT NOW</h1>
+    <div className='text-left' style={{marginLeft:"7%"}}>
+    <h1 style={{color:"#F40000" , fontSize:"xx-large" , fontWeight:"600" , paddingTop:"2rem"}}>RIGHT NOW</h1>
     </div>
 
       <Sidebar/>
-    <div className='mr-2 ' >
+    <div className='mr-4 ' >
 
-    <div class="p-4 sm:ml-32" style={{marginLeft:"4rem"}}>
-   <div class="p-4  rounded-lg " style={{marginTop : ""}}>
+    <div class="p-6 pb-0 sm:ml-34" style={{marginLeft:"4rem"}}>
+   <div class="p-4   rounded-lg " style={{marginTop : ""}}>
 
 
-      <div class=" shadow-md justify-center h-48 mb-4 rounded bg-gray-50 " style={{fontFamily:'sans-serif'}}>
+      <div class=" shadow-md justify-center h-48 mb-4 rounded-lg bg-gray-50 " style={{fontFamily:'sans-serif'}}>
       <div className='text-left'>
       <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>HIGHLIGHTS</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
@@ -61,13 +58,13 @@ const Dashboard = () => {
 
 
       <div class=" grid grid-cols-1 gap-4 mb-4 " >
-         <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-28 " style={{height:"500px"}}>
+         <div class="flex shadow-md items-center justify-center rounded-lg bg-gray-50 h-28 " style={{height:"500px"}}>
             <p class="text-xl text-gray-400 dark:text-gray-500">
              xxxx
             </p>
          </div>
 
-         <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-48 ">
+         <div class="flex shadow-md items-center justify-center rounded-lg bg-gray-50 h-48 ">
             <p class="text-xl text-gray-400 dark:text-gray-500">
               xxxx
             </p>
@@ -76,17 +73,17 @@ const Dashboard = () => {
     
 
       <div class="grid grid-cols-3 gap-4 mb-4" style={{height:"500px"}}>
-         <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
+         <div class="flex shadow-md items-center justify-center rounded-lg bg-gray-50 h-64 " style={{height:"100%"}}>
             <p class="text-xl text-gray-400 dark:text-gray-500">
                
             </p>
          </div>
-         <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
+         <div class="flex shadow-md items-center justify-center rounded-lg bg-gray-50 h-64 " style={{height:"100%"}}>
             <p class="text-xl text-gray-400 dark:text-gray-500">
            
             </p>
          </div>
-         <div class="flex shadow-md items-center justify-center rounded bg-gray-50 h-64 " style={{height:"100%"}}>
+         <div class="flex shadow-md items-center justify-center rounded-lg bg-gray-50 h-64 " style={{height:"100%"}}>
             <p class="text-xl text-gray-400 dark:text-gray-500">            
             </p>            
          </div>

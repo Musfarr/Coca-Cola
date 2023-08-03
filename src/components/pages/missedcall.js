@@ -69,7 +69,7 @@ const Missedcall = () => {
     <div className='flex justify-between'>
     <h3 style={{color:"red" ,fontWeight:"600" , fontSize:"30px" }}>MISSED CALL ENTRIES </h3>
     <div className=' mr-8'>
-    <button  type="button" class="   py-1 px-5 mr-2 mb-2 text-sm font-bold text-red-800 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-5 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-100 dark:text-red-500 dark:border-gray-400 hover:border-red-600 dark:hover:text-red-500 dark:hover:bg-red-200">Export Data</button>
+    <button  type="button" class="   py-1 px-5 mr-2 mb-2 text-sm font-bold text-red-800 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-5 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-100 dark:text-red-500 dark:border-gray-300 hover:border-red-600 dark:hover:text-red-500 dark:hover:bg-red-200">Export Data</button>
 </div>
     </div>
     <p><b>Use this page to view the total and unique missed call.</b></p>
@@ -78,9 +78,9 @@ const Missedcall = () => {
 
 
 
-<div style={{marginRight:"50%",paddingTop:"10vh"}}>
-<div className='flex mb-2 text-lg font-medium ' id="tabExample" role="tablist">
-<div className=''><button class=" underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
+<div style={{marginRight:"50%",paddingTop:"5vh"}}>
+<div className='flex mb-4 text-lg font-medium ' id="tabExample" role="tablist">
+<div className=''><button class=" underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">TOTAL ENTRIES</button>
  </div>
 <div className='pl-4 '><button class=" underline text-black black-to-red" id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">UNIQUE ENTRIES</button></div>
 </div>

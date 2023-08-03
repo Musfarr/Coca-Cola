@@ -23,8 +23,11 @@ function App() {
 
           <Route
            path = "/"
-           element = { <div>
+           element = { <div>   
             <Login/>
+            <div className=''>
+              <Footer/>
+            </div>
            </div>
           }> 
 

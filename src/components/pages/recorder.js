@@ -78,7 +78,7 @@ const Recorder = () => {
         <div className='flex justify-between'>
         <h3 style={{color:"red" ,fontWeight:"600" , fontSize:"30px" }}> CALL RECORDS </h3>
         <div className=' mr-8'>
-    <button  type="button" class="   py-1 px-5 mr-2 mb-2 text-sm font-bold text-red-800 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-5 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-100 dark:text-red-500 dark:border-gray-400 hover:border-red-600 dark:hover:text-red-500 dark:hover:bg-red-200">Export Data</button>
+    <button  type="button" class="   py-1 px-5 mr-2 mb-2 text-sm font-bold text-gray-500 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-5 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-100 dark:text-red-500 dark:border-gray-400 hover:border-red-600 dark:hover:text-red-500 dark:hover:bg-red-200">Export Data</button>
 </div>
         </div>
         
@@ -130,216 +130,159 @@ const Recorder = () => {
     <div id="tabContentExample">
     <div class="hidden rounded-lg  pb-16 pr-8" id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example">
     <div class="relative overflow-x-auto shadow-md" style={{marginTop:"5vh"}}>
-    <table class="w-full text-sm text-left text-gray-300 dark:text-gray-600 ">
-        <thead class="text-xs text-gray-200 uppercase dark:text-gray-400">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    SR.
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Execution Date
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    no.of attempts
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Answered calls
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Not Answered calls
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    0-30
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="  border-y border-gray-300 left-1/2 ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                     1
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    14              </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    9
-                </td>
-                <td class="px-6 py-4">
-                    19
-                </td>
-            </tr>
-            
-            <tr class="bg-white ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                    2
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                     14
-                </td>
-                <td class="px-6 py-4">
-                    8
-                </td>
-                <td class="px-6 py-4">
-                    9
-                </td>
-                <td class="px-6 py-4">
-                    19
-                </td>
-            </tr>
-            
-            <tr class=" border-y border-gray-300 left-1/2 ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                    3
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            <tr class="bg-white ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                    4
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            
-            <tr class="   border-y border-gray-300 left-1/2">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                    5
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            
-            <tr class=" ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                    6
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            
-            <tr class="  border-y border-gray-300   ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                     7
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            <tr class="   ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                     7
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-            <tr class="  border-y border-gray-300   ">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-200 whitespace-nowrap dark:text-gray-600">
-                     7
-                </th>
-                <td class="px-6 py-4">
-                12 Jun 2023
-                </td>
-                <td class="px-6 py-4">
-                    16
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-                <td class="px-6 py-4">
-                    13
-                </td>
-            </tr>
-        </tbody>
-    </table>
+    <table class="w-full text-sm text-left text-black dark:text-gray-600">
+            <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
+                <tr>
+                    <th scope="col" class="px-6 py-4">
+                        SR.NO
+                    </th>
+                    <th scope="col" class="px-6 py-4">
+                        call status
+                    </th>
+                    <th scope="col" class="px-6 py-4">
+                        Color
+                    </th>
+                    <th scope="col" class="px-6 py-4">
+                        Category
+                    </th>
+                   
+                    <th scope="col" class="px-6 py-4">
+                        Date
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white hover:shadow-lg ">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap ">
+                        1
+                    </th>
+                    <td class="px-6 py-4">
+                        no answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Silver
+                    </td>
+                    <td class="px-6 py-4">
+                        Laptop
+                    </td>
+                    <td class="px-6 py-4" >
+                        <span>14-5-23</span>
+                    </td>
+                </tr>
+                <br></br>
+                <tr class="bg-white hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                    2                    </th>
+                    <td class="px-6 py-4">
+                        no answer
+                    </td>
+                    <td class="px-6 py-4">
+                        White
+                    </td>
+                    <td class="px-6 py-4">
+                        Laptop PC
+                    </td>
+                    
+                    <td class="px-6 py-4">
+                        <span>1-4-2</span>
+                    </td>
+                </tr>
+                <br/>
+                <tr class="bg-white hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                    3                    </th>
+                    <td class="px-6 py-4">
+                        no answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Black
+                    </td>
+                    <td class="px-6 py-4">
+                        Accessories
+                    </td>
+                    
+
+                    <td class="px-6 py-4">
+                        <span>12-12-12</span>
+                    </td>
+                </tr>
+                <br/>
+                <tr class="bg-white hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                        4                    </th>
+                    <td class="px-6 py-4">
+                        no answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Black
+                    </td>
+                    <td class="px-6 py-4">
+                        Accessories
+                    </td>
+                    
+                    <td class="px-6 py-4">
+                        <span>12-3-4</span>
+                    </td>
+                </tr>
+                <br></br>
+                <tr class="bg-white  hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                        5
+                                        </th>
+                    <td class="px-6 py-4">
+                        NO answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Black
+                    </td>
+                    <td class="px-6 py-4">
+                        Accessories
+                    </td>
+                    
+                    <td class="px-6 py-4">
+                    <span>1-2-23</span>
+                    </td>
+                </tr>
+                <br></br>
+                <tr class="bg-white  hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                        6
+                                        </th>
+                    <td class="px-6 py-4">
+                        NO answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Black
+                    </td>
+                    <td class="px-6 py-4">
+                        Accessories
+                    </td>
+                    
+                    <td class="px-6 py-4">
+                    <span>1-2-23</span>
+                    </td>
+                </tr>
+                <br></br>
+                <tr class="bg-white  hover:shadow-lg">
+                    <th scope="row" class="px-6 py-4 font-medium text-gray-500 whitespace-nowrap  ">
+                        7
+                                        </th>
+                    <td class="px-6 py-4">
+                        NO answer
+                    </td>
+                    <td class="px-6 py-4">
+                        Black
+                    </td>
+                    <td class="px-6 py-4">
+                        Accessories
+                    </td>
+                    
+                    <td class="px-6 py-4">
+                    <span>1-2-23</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 

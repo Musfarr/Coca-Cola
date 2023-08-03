@@ -2,6 +2,7 @@
 import React from 'react'
 import bottle from "/Users/Musfar/Desktop/wk/ck/src/bottle-large.svg"
 import {Link} from 'react-router-dom'
+import Footer from '../common/footer'
 const Login = () => {
 
 
@@ -55,7 +56,7 @@ const Login = () => {
    
     
     <div className='flex ' style={{backgroundColor:""}} >
-    <Link to="forgotpass" style={{color:"red" , fontFamily:'sans-serif', fontSize:"20px", marginRight: "110px" , marginTop:"10px" } } >
+    <Link to="forgotpass" style={{color:"red" , fontFamily:'sans-serif', fontSize:"20px", marginRight: "100px" , marginTop:"10px" } } >
     Forgot Password?
     </Link>
 
@@ -66,13 +67,9 @@ const Login = () => {
 </form>
 
 
-
-
-
-
-</div>
-
+</div >
     </div>
+
 </div>
   )
 }
