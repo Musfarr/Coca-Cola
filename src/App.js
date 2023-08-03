@@ -48,7 +48,6 @@ function App() {
           <div>
             <Sidebar/>
             <Missedcall/>
-            <Footer/>       
           </div>
                }>        
           </Route>
@@ -60,7 +59,6 @@ function App() {
           <div>
             <Sidebar/>
             <Recorder/>
-            <Footer/>
           </div>
           }>        
            </Route>

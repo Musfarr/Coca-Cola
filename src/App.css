@@ -75,3 +75,26 @@
 
 
 }
+.nmbrs{
+  color: red;
+}
+
+
+a [title]:hover::before {
+  content: attr(title);
+  position: fixed ;
+
+  transform: translateX(50px);
+  background-color: #000;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+/* Hide the default browser tooltip */
+a[title]:hover {
+  text-decoration: none;
+}

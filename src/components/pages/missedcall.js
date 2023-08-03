@@ -1,6 +1,7 @@
 import React, { useEffect,useState } from 'react';
 import { Tabs } from 'flowbite';
 import  ab  from '../pages/ex.mp3';
+import Footer from '../common/footer';
 
 
 
@@ -65,16 +66,23 @@ const Missedcall = () => {
   return (
 <div style={{height:"100%" , paddingLeft:"15vh" , paddingTop:"30px" , backgroundColor:"#f5f5f5" }}> 
 <div style={{textAlign:'initial' ,fontFamily:'sans-serif'}} >
-    <h3 style={{color:"red" ,fontWeight:"400" , fontSize:"40px" }}>MISSED CALL ENTRIES </h3>
+    <div className='flex justify-between'>
+    <h3 style={{color:"red" ,fontWeight:"600" , fontSize:"30px" }}>MISSED CALL ENTRIES </h3>
+    <div className=' mr-8'>
+    <button  type="button" class="   py-1 px-5 mr-2 mb-2 text-sm font-bold text-red-800 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-5 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-100 dark:text-red-500 dark:border-gray-400 hover:border-red-600 dark:hover:text-red-500 dark:hover:bg-red-200">Export Data</button>
+</div>
+    </div>
     <p><b>Use this page to view the total and unique missed call.</b></p>
 </div>
 
 
+
+
 <div style={{marginRight:"50%",paddingTop:"10vh"}}>
 <div className='flex mb-2 text-lg font-medium ' id="tabExample" role="tablist">
-<div className=''><button class="p-4 underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
+<div className=''><button class=" underline text-black black-to-red " id="profile-tab-example" type="button" role="tab" aria-controls="profile-example" aria-selected="false">INCOMING CALLS</button>
  </div>
-<div className='pl-4 '><button class="p-4 underline text-black black-to-red" id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">UNIQUE ENTRIES</button></div>
+<div className='pl-4 '><button class=" underline text-black black-to-red" id="dashboard-tab-example" type="button" role="tab" aria-controls="dashboard-example" aria-selected="false">UNIQUE ENTRIES</button></div>
 </div>
 <form className=' w-64'>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -94,7 +102,7 @@ const Missedcall = () => {
 
 
 <div id="tabContentExample" >
-    <div class=" p-4 rounded-lg bg-gray-50 " id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example" style={{backgroundColor:"white"}}>
+    <div class="  rounded-lg bg-gray-50 pr-8" id="profile-example" role="tabpanel" aria-labelledby="profile-tab-example" style={{backgroundColor:"transparent"}}>
     <div class="relative overflow-x-auto shadow-md" style={{marginTop:"5vh"}}>
         <table class="w-full text-sm text-left text-black dark:text-black">
             <thead class="text-xs text-gray-900 uppercase dark:text-gray-400">
@@ -121,7 +129,7 @@ const Missedcall = () => {
             </thead>
             <tbody>
                 <tr class="bg-white shadow-md">
-                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap ">
+                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap nmbrs">
                         03322678854
                     </th>
                     <td class="px-6 py-4">
@@ -142,7 +150,7 @@ const Missedcall = () => {
                 </tr>
                 <br></br>
                 <tr class="bg-white shadow-md">
-                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap ">
+                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap nmbrs ">
                     03322678854                    </th>
                     <td class="px-6 py-4">
                         no answer
@@ -162,7 +170,7 @@ const Missedcall = () => {
                 </tr>
                 <br/>
                 <tr class="bg-white shadow-md">
-                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap ">
+                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap nmbrs ">
                     03322678854                    </th>
                     <td class="px-6 py-4">
                         no answer
@@ -183,7 +191,7 @@ const Missedcall = () => {
                 </tr>
                 <br/>
                 <tr class="bg-white shadow-md">
-                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap ">
+                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap nmbrs ">
                     03322678854                    </th>
                     <td class="px-6 py-4">
                         no answer
@@ -203,7 +211,7 @@ const Missedcall = () => {
                 </tr>
                 <br></br>
                 <tr class="bg-white  shadow-md">
-                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap ">
+                    <th scope="row" class="px-6 py-4 font-medium text-red-800 whitespace-nowrap nmbrs ">
                     03322678854
                                         </th>
                     <td class="px-6 py-4">
@@ -350,35 +358,10 @@ const Missedcall = () => {
 
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div className='flex justify-between pr-8 pt-8' >
-<p>© 2023 The Coca-Cola Company. All rights reserved. </p>
-<span > powered by convex Interactive</span>
+<div>
+    <Footer/>
 </div>
+
       
 </div>
 </div>

@@ -131,6 +131,8 @@ const Dashboard = () => {
       <h1 className='mt-2 mx-8 pt-4 text-xl text-gray-400 dark:text-gray-800'>ENTRIES RECIEVED</h1>
       <hr className="mt-2 mx-8 border-gray-800 border-2 dark:border-gray-300" />
       </div>
+
+
       
       <div class='grid grid-cols-4 gap-2 px-32 py-8 text-4sxl' style={{fontSize:"revert"}}>
 
