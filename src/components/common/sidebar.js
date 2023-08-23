@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img from  "/Users/Musfar/Desktop/wk/ck/src/homeLogo.svg"
+import img from  "../../homeLogo.svg"
 
 const Sidebar = () => {
   return (
