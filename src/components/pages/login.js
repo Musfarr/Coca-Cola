@@ -1,6 +1,6 @@
 
 import React from 'react'
-import bottle from "/Users/Musfar/Desktop/wk/ck/src/bottle-large.svg"
+import bottle from "../../bottle-large.svg"
 import {Link} from 'react-router-dom'
 import Footer from '../common/footer'
 const Login = () => {
